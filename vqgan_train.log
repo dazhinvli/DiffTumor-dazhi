@@ -290,3 +290,8 @@ checkpoint_path: checkpoints/vqgan_best_epoch_59.pth
 2026-03-20 14:52:29 INFO: Epoch [18/100] | Train Loss: 0.1688 (Recon: 0.1594, VQ: 0.0094) | 
 2026-03-20 14:53:35 INFO: Epoch [19/100] | Train Loss: 0.1716 (Recon: 0.1621, VQ: 0.0095) | 
 2026-03-20 14:55:00 INFO: Epoch [20/100] | Train Loss: 0.1674 (Recon: 0.1580, VQ: 0.0094) | Val Loss: 0.1719 | Best Val Loss: 0.1719
+2026-03-20 14:56:06 INFO: Epoch [21/100] | Train Loss: 0.1658 (Recon: 0.1564, VQ: 0.0094) | 
+2026-03-20 14:57:12 INFO: Epoch [22/100] | Train Loss: 0.1614 (Recon: 0.1518, VQ: 0.0096) | 
+2026-03-20 14:58:18 INFO: Epoch [23/100] | Train Loss: 0.1657 (Recon: 0.1563, VQ: 0.0094) | 
+2026-03-20 14:59:25 INFO: Epoch [24/100] | Train Loss: 0.1540 (Recon: 0.1445, VQ: 0.0095) | 
+2026-03-20 15:00:52 INFO: Epoch [25/100] | Train Loss: 0.1621 (Recon: 0.1530, VQ: 0.0091) | Val Loss: 0.1630 | Best Val Loss: 0.1630
