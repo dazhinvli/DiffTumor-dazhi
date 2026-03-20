@@ -72,16 +72,16 @@ def get_train_val_dataloader(cfg, val_split=0.2):
         train_dataset,
         batch_size=1,
         shuffle=True,
-        num_workers=1,
-        pin_memory=True
+        num_workers=0,
+        pin_memory=False
     )
     
     val_loader = DataLoader(
         val_dataset,
         batch_size=1,
         shuffle=False,
-        num_workers=1,
-        pin_memory=True
+        num_workers=0,
+        pin_memory=False
     )
     
     print(f"✅ 数据加载完成 | 训练集: {len(train_dataset)} | 验证集: {len(val_dataset)}")

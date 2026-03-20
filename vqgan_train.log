@@ -324,3 +324,61 @@ checkpoint_path: checkpoints/vqgan_best_epoch_59.pth
 2026-03-20 15:32:23 INFO: Epoch [52/100] | Train Loss: 0.1412 (Recon: 0.1316, VQ: 0.0096) | 
 2026-03-20 15:33:29 INFO: Epoch [53/100] | Train Loss: 0.1430 (Recon: 0.1334, VQ: 0.0096) | 
 2026-03-20 15:34:35 INFO: Epoch [54/100] | Train Loss: 0.1405 (Recon: 0.1306, VQ: 0.0099) | 
+2026-03-20 15:36:01 INFO: Epoch [55/100] | Train Loss: 0.1427 (Recon: 0.1330, VQ: 0.0097) | Val Loss: 0.1456 | Best Val Loss: 0.1456
+2026-03-20 15:37:06 INFO: Epoch [56/100] | Train Loss: 0.1417 (Recon: 0.1318, VQ: 0.0099) | 
+2026-03-20 15:38:12 INFO: Epoch [57/100] | Train Loss: 0.1366 (Recon: 0.1261, VQ: 0.0105) | 
+2026-03-20 15:39:17 INFO: Epoch [58/100] | Train Loss: 0.1371 (Recon: 0.1272, VQ: 0.0100) | 
+2026-03-20 15:40:23 INFO: Epoch [59/100] | Train Loss: 0.1418 (Recon: 0.1316, VQ: 0.0103) | 
+2026-03-20 15:41:48 INFO: Epoch [60/100] | Train Loss: 0.1392 (Recon: 0.1287, VQ: 0.0105) | Val Loss: 0.1437 | Best Val Loss: 0.1437
+2026-03-20 15:42:55 INFO: Epoch [61/100] | Train Loss: 0.1406 (Recon: 0.1304, VQ: 0.0101) | 
+2026-03-20 15:44:02 INFO: Epoch [62/100] | Train Loss: 0.1388 (Recon: 0.1283, VQ: 0.0104) | 
+2026-03-20 15:45:08 INFO: Epoch [63/100] | Train Loss: 0.1406 (Recon: 0.1301, VQ: 0.0105) | 
+2026-03-20 16:03:37 INFO: ============================================================
+2026-03-20 16:03:37 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 16:03:37 INFO: 📌 配置: dataset:
+  name: synt_ct
+  data_root: /home/konglz/DiffTumor/data/
+  data_txt: /home/konglz/DiffTumor/data_list.txt
+  image_channels: 1
+  a_min: -175
+  a_max: 250
+  b_min: -1.0
+  b_max: 1.0
+  space_x: 1.0
+  space_y: 1.0
+  space_z: 1.0
+  roi_x: 96
+  roi_y: 96
+  roi_z: 96
+  num_workers: 1
+  cache_dataset: false
+  cache_rate: 0.05
+  image_only: true
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+resume: true
+checkpoint_path: checkpoints/vqgan_best_epoch_59.pth
+
+2026-03-20 16:03:37 INFO: 📌 设备: cuda
+2026-03-20 16:03:37 INFO: ============================================================
+2026-03-20 16:04:28 INFO: Epoch [61/100] | Train Loss: 0.1380 (Recon: 0.1275, VQ: 0.0105) | 
+2026-03-20 16:05:17 INFO: Epoch [62/100] | Train Loss: 0.1395 (Recon: 0.1293, VQ: 0.0103) | 
+2026-03-20 16:06:06 INFO: Epoch [63/100] | Train Loss: 0.1387 (Recon: 0.1288, VQ: 0.0099) | 
+2026-03-20 16:06:55 INFO: Epoch [64/100] | Train Loss: 0.1414 (Recon: 0.1312, VQ: 0.0102) | 
+2026-03-20 16:08:00 INFO: Epoch [65/100] | Train Loss: 0.1385 (Recon: 0.1282, VQ: 0.0103) | Val Loss: 0.1435 | Best Val Loss: 0.1435
+2026-03-20 16:08:51 INFO: Epoch [66/100] | Train Loss: 0.1323 (Recon: 0.1221, VQ: 0.0102) | 
+2026-03-20 16:09:40 INFO: Epoch [67/100] | Train Loss: 0.1393 (Recon: 0.1287, VQ: 0.0106) | 
+2026-03-20 16:10:29 INFO: Epoch [68/100] | Train Loss: 0.1328 (Recon: 0.1224, VQ: 0.0104) | 
+2026-03-20 16:11:18 INFO: Epoch [69/100] | Train Loss: 0.1398 (Recon: 0.1294, VQ: 0.0104) | 
+2026-03-20 16:12:22 INFO: Epoch [70/100] | Train Loss: 0.1362 (Recon: 0.1255, VQ: 0.0107) | Val Loss: 0.1422 | Best Val Loss: 0.1422
+2026-03-20 16:13:11 INFO: Epoch [71/100] | Train Loss: 0.1354 (Recon: 0.1246, VQ: 0.0108) | 

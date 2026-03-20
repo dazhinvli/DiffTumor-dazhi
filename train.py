@@ -35,9 +35,15 @@ def main(cfg: DictConfig):
         weight_decay=cfg.train.weight_decay
     )
 
+    start_epoch = 0
+    if cfg.get("resume", False) and "checkpoint_path" in cfg:
+        from utils.checkpoint import load_checkpoint
+        model, optimizer, start_epoch, best_val_loss = load_checkpoint(
+            model, optimizer, cfg.checkpoint_path
+        )
     # 4. 训练循环
     best_val_loss = float("inf")
-    for epoch in range(cfg.train.epochs):
+    for epoch in range(start_epoch, cfg.train.epochs):
         # ---------------------- 训练阶段 ----------------------
         model.train()
         train_total_loss = 0.0

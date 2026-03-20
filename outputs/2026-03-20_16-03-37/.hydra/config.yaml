@@ -1,0 +1,33 @@
+dataset:
+  name: synt_ct
+  data_root: /home/konglz/DiffTumor/data/
+  data_txt: /home/konglz/DiffTumor/data_list.txt
+  image_channels: 1
+  a_min: -175
+  a_max: 250
+  b_min: -1.0
+  b_max: 1.0
+  space_x: 1.0
+  space_y: 1.0
+  space_z: 1.0
+  roi_x: 96
+  roi_y: 96
+  roi_z: 96
+  num_workers: 1
+  cache_dataset: false
+  cache_rate: 0.05
+  image_only: true
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+resume: true
+checkpoint_path: checkpoints/vqgan_best_epoch_59.pth
