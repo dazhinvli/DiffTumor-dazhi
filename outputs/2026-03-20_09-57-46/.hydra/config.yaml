@@ -1,0 +1,13 @@
+dataset: synt_ct
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2

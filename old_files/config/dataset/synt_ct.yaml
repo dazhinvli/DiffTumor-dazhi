@@ -1,0 +1,23 @@
+name: synt_ct
+dataset_list: LiTS
+data_root_path: /home/konglz/DiffTumor/data/
+data_txt_path: /home/konglz/DiffTumor/
+
+image_channels: 1
+a_min: -175
+a_max: 250
+b_min: -1.0
+b_max: 1.0
+
+space_x: 1.0
+space_y: 1.0
+space_z: 1.0
+roi_x: 96
+roi_y: 96
+roi_z: 96
+
+batch_size: 1
+num_workers: 1
+cache_dataset: False
+
+image_only: True

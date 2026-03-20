@@ -1,0 +1,25 @@
+hydra:
+  run:
+    dir: ./outputs/${now:%Y-%m-%d_%H-%M-%S}
+  job_logging:
+    root:
+      handlers: [console, file]
+
+# 全局参数
+dataset: synt_ct
+model: vq_gan_3d
+device: cuda  # cpu/cuda
+
+# 训练参数
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 1e-4
+  weight_decay: 1e-5
+  save_freq: 10  # 每10轮保存模型
+  log_freq: 1    # 每1轮打印日志
+
+# 验证参数
+val:
+  val_freq: 5    # 每5轮验证一次
+  val_split: 0.2 # 训练/验证划分比例

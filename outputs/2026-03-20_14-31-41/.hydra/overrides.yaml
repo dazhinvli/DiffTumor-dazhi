@@ -1,0 +1,3 @@
+- +dataset=synt_ct
+- +resume=True
+- +checkpoint_path=checkpoints/vqgan_best_epoch_59.pth

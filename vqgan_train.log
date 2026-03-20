@@ -1,0 +1,292 @@
+2026-03-20 09:57:46 INFO: ============================================================
+2026-03-20 09:57:46 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 09:57:46 INFO: 📌 配置: dataset: synt_ct
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+
+2026-03-20 09:57:46 INFO: 📌 设备: cuda
+2026-03-20 09:57:46 INFO: ============================================================
+2026-03-20 10:06:36 INFO: ============================================================
+2026-03-20 10:06:36 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 10:06:36 INFO: 📌 配置: dataset: synt_ct
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+
+2026-03-20 10:06:36 INFO: 📌 设备: cuda
+2026-03-20 10:06:36 INFO: ============================================================
+2026-03-20 10:10:16 INFO: ============================================================
+2026-03-20 10:10:16 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 10:10:16 INFO: 📌 配置: dataset: synt_ct
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+
+2026-03-20 10:10:16 INFO: 📌 设备: cuda
+2026-03-20 10:10:16 INFO: ============================================================
+2026-03-20 10:12:34 INFO: ============================================================
+2026-03-20 10:12:34 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 10:12:34 INFO: 📌 配置: dataset: synt_ct
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+
+2026-03-20 10:12:34 INFO: 📌 设备: cuda
+2026-03-20 10:12:34 INFO: ============================================================
+2026-03-20 10:46:05 INFO: ============================================================
+2026-03-20 10:46:05 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 10:46:05 INFO: 📌 配置: dataset: synt_ct
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+
+2026-03-20 10:46:05 INFO: 📌 设备: cuda
+2026-03-20 10:46:05 INFO: ============================================================
+2026-03-20 10:50:57 INFO: ============================================================
+2026-03-20 10:50:57 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 10:50:57 INFO: 📌 配置: dataset: synt_ct
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+
+2026-03-20 10:50:57 INFO: 📌 设备: cuda
+2026-03-20 10:50:57 INFO: ============================================================
+2026-03-20 10:52:47 INFO: ============================================================
+2026-03-20 10:52:47 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 10:52:47 INFO: 📌 配置: dataset: synt_ct
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+
+2026-03-20 10:52:47 INFO: 📌 设备: cuda
+2026-03-20 10:52:47 INFO: ============================================================
+2026-03-20 10:53:52 INFO: Epoch [1/100] | Train Loss: 1.0192 (Recon: 1.0012, VQ: 0.0180) | 
+2026-03-20 10:54:56 INFO: Epoch [2/100] | Train Loss: 0.6256 (Recon: 0.6120, VQ: 0.0136) | 
+2026-03-20 10:56:00 INFO: Epoch [3/100] | Train Loss: 0.4850 (Recon: 0.4729, VQ: 0.0121) | 
+2026-03-20 10:57:06 INFO: Epoch [4/100] | Train Loss: 0.3972 (Recon: 0.3854, VQ: 0.0118) | 
+2026-03-20 10:58:32 INFO: Epoch [5/100] | Train Loss: 0.3467 (Recon: 0.3358, VQ: 0.0109) | Val Loss: 0.3438 | Best Val Loss: 0.3438
+2026-03-20 10:59:38 INFO: Epoch [6/100] | Train Loss: 0.3189 (Recon: 0.3084, VQ: 0.0106) | 
+2026-03-20 11:00:45 INFO: Epoch [7/100] | Train Loss: 0.2864 (Recon: 0.2760, VQ: 0.0104) | 
+2026-03-20 11:01:49 INFO: Epoch [8/100] | Train Loss: 0.2675 (Recon: 0.2573, VQ: 0.0102) | 
+2026-03-20 11:02:54 INFO: Epoch [9/100] | Train Loss: 0.2477 (Recon: 0.2378, VQ: 0.0099) | 
+2026-03-20 11:04:20 INFO: Epoch [10/100] | Train Loss: 0.2388 (Recon: 0.2287, VQ: 0.0101) | Val Loss: 0.2424 | Best Val Loss: 0.2424
+2026-03-20 11:05:26 INFO: Epoch [11/100] | Train Loss: 0.2311 (Recon: 0.2216, VQ: 0.0096) | 
+2026-03-20 11:06:33 INFO: Epoch [12/100] | Train Loss: 0.2208 (Recon: 0.2111, VQ: 0.0097) | 
+2026-03-20 11:07:38 INFO: Epoch [13/100] | Train Loss: 0.2068 (Recon: 0.1974, VQ: 0.0094) | 
+2026-03-20 11:08:45 INFO: Epoch [14/100] | Train Loss: 0.2065 (Recon: 0.1967, VQ: 0.0098) | 
+2026-03-20 11:10:10 INFO: Epoch [15/100] | Train Loss: 0.2010 (Recon: 0.1911, VQ: 0.0098) | Val Loss: 0.2091 | Best Val Loss: 0.2091
+2026-03-20 11:11:15 INFO: Epoch [16/100] | Train Loss: 0.1898 (Recon: 0.1803, VQ: 0.0095) | 
+2026-03-20 11:12:21 INFO: Epoch [17/100] | Train Loss: 0.1904 (Recon: 0.1805, VQ: 0.0099) | 
+2026-03-20 11:13:27 INFO: Epoch [18/100] | Train Loss: 0.1800 (Recon: 0.1705, VQ: 0.0095) | 
+2026-03-20 11:14:33 INFO: Epoch [19/100] | Train Loss: 0.1831 (Recon: 0.1734, VQ: 0.0096) | 
+2026-03-20 11:15:58 INFO: Epoch [20/100] | Train Loss: 0.1767 (Recon: 0.1675, VQ: 0.0093) | Val Loss: 0.1844 | Best Val Loss: 0.1844
+2026-03-20 11:17:05 INFO: Epoch [21/100] | Train Loss: 0.1751 (Recon: 0.1660, VQ: 0.0091) | 
+2026-03-20 11:18:11 INFO: Epoch [22/100] | Train Loss: 0.1704 (Recon: 0.1611, VQ: 0.0093) | 
+2026-03-20 11:19:16 INFO: Epoch [23/100] | Train Loss: 0.1758 (Recon: 0.1667, VQ: 0.0091) | 
+2026-03-20 11:20:22 INFO: Epoch [24/100] | Train Loss: 0.1642 (Recon: 0.1547, VQ: 0.0095) | 
+2026-03-20 11:21:49 INFO: Epoch [25/100] | Train Loss: 0.1629 (Recon: 0.1535, VQ: 0.0094) | Val Loss: 0.1740 | Best Val Loss: 0.1740
+2026-03-20 11:22:54 INFO: Epoch [26/100] | Train Loss: 0.1612 (Recon: 0.1521, VQ: 0.0091) | 
+2026-03-20 11:24:00 INFO: Epoch [27/100] | Train Loss: 0.1644 (Recon: 0.1551, VQ: 0.0093) | 
+2026-03-20 11:25:06 INFO: Epoch [28/100] | Train Loss: 0.1638 (Recon: 0.1548, VQ: 0.0090) | 
+2026-03-20 11:26:12 INFO: Epoch [29/100] | Train Loss: 0.1641 (Recon: 0.1548, VQ: 0.0093) | 
+2026-03-20 11:27:37 INFO: Epoch [30/100] | Train Loss: 0.1604 (Recon: 0.1512, VQ: 0.0092) | Val Loss: 0.1646 | Best Val Loss: 0.1646
+2026-03-20 11:28:44 INFO: Epoch [31/100] | Train Loss: 0.1583 (Recon: 0.1489, VQ: 0.0093) | 
+2026-03-20 11:29:49 INFO: Epoch [32/100] | Train Loss: 0.1580 (Recon: 0.1491, VQ: 0.0089) | 
+2026-03-20 11:30:54 INFO: Epoch [33/100] | Train Loss: 0.1618 (Recon: 0.1523, VQ: 0.0095) | 
+2026-03-20 11:31:59 INFO: Epoch [34/100] | Train Loss: 0.1542 (Recon: 0.1452, VQ: 0.0091) | 
+2026-03-20 11:33:24 INFO: Epoch [35/100] | Train Loss: 0.1569 (Recon: 0.1475, VQ: 0.0094) | Val Loss: 0.1604 | Best Val Loss: 0.1604
+2026-03-20 11:34:29 INFO: Epoch [36/100] | Train Loss: 0.1548 (Recon: 0.1455, VQ: 0.0093) | 
+2026-03-20 11:35:34 INFO: Epoch [37/100] | Train Loss: 0.1550 (Recon: 0.1456, VQ: 0.0094) | 
+2026-03-20 11:36:39 INFO: Epoch [38/100] | Train Loss: 0.1558 (Recon: 0.1466, VQ: 0.0091) | 
+2026-03-20 11:37:46 INFO: Epoch [39/100] | Train Loss: 0.1499 (Recon: 0.1406, VQ: 0.0093) | 
+2026-03-20 11:39:12 INFO: Epoch [40/100] | Train Loss: 0.1521 (Recon: 0.1424, VQ: 0.0097) | Val Loss: 0.1571 | Best Val Loss: 0.1571
+2026-03-20 11:40:18 INFO: Epoch [41/100] | Train Loss: 0.1470 (Recon: 0.1376, VQ: 0.0094) | 
+2026-03-20 11:41:24 INFO: Epoch [42/100] | Train Loss: 0.1548 (Recon: 0.1450, VQ: 0.0098) | 
+2026-03-20 11:42:30 INFO: Epoch [43/100] | Train Loss: 0.1486 (Recon: 0.1393, VQ: 0.0094) | 
+2026-03-20 11:43:35 INFO: Epoch [44/100] | Train Loss: 0.1524 (Recon: 0.1427, VQ: 0.0097) | 
+2026-03-20 11:45:02 INFO: Epoch [45/100] | Train Loss: 0.1509 (Recon: 0.1413, VQ: 0.0096) | Val Loss: 0.1540 | Best Val Loss: 0.1540
+2026-03-20 11:46:09 INFO: Epoch [46/100] | Train Loss: 0.1458 (Recon: 0.1355, VQ: 0.0102) | 
+2026-03-20 11:47:14 INFO: Epoch [47/100] | Train Loss: 0.1496 (Recon: 0.1397, VQ: 0.0099) | 
+2026-03-20 11:48:19 INFO: Epoch [48/100] | Train Loss: 0.1469 (Recon: 0.1372, VQ: 0.0098) | 
+2026-03-20 11:49:25 INFO: Epoch [49/100] | Train Loss: 0.1464 (Recon: 0.1363, VQ: 0.0101) | 
+2026-03-20 11:50:52 INFO: Epoch [50/100] | Train Loss: 0.1413 (Recon: 0.1311, VQ: 0.0102) | Val Loss: 0.1533 | Best Val Loss: 0.1533
+2026-03-20 11:51:58 INFO: Epoch [51/100] | Train Loss: 0.1450 (Recon: 0.1349, VQ: 0.0101) | 
+2026-03-20 11:53:03 INFO: Epoch [52/100] | Train Loss: 0.1485 (Recon: 0.1384, VQ: 0.0101) | 
+2026-03-20 11:54:09 INFO: Epoch [53/100] | Train Loss: 0.1456 (Recon: 0.1358, VQ: 0.0098) | 
+2026-03-20 11:55:15 INFO: Epoch [54/100] | Train Loss: 0.1414 (Recon: 0.1317, VQ: 0.0097) | 
+2026-03-20 11:56:40 INFO: Epoch [55/100] | Train Loss: 0.1462 (Recon: 0.1360, VQ: 0.0103) | Val Loss: 0.1511 | Best Val Loss: 0.1511
+2026-03-20 11:57:45 INFO: Epoch [56/100] | Train Loss: 0.1425 (Recon: 0.1323, VQ: 0.0103) | 
+2026-03-20 11:58:51 INFO: Epoch [57/100] | Train Loss: 0.1457 (Recon: 0.1352, VQ: 0.0105) | 
+2026-03-20 11:59:57 INFO: Epoch [58/100] | Train Loss: 0.1423 (Recon: 0.1317, VQ: 0.0106) | 
+2026-03-20 12:01:04 INFO: Epoch [59/100] | Train Loss: 0.1459 (Recon: 0.1356, VQ: 0.0102) | 
+2026-03-20 12:02:31 INFO: Epoch [60/100] | Train Loss: 0.1430 (Recon: 0.1323, VQ: 0.0107) | Val Loss: 0.1504 | Best Val Loss: 0.1504
+2026-03-20 12:03:38 INFO: Epoch [61/100] | Train Loss: 0.1414 (Recon: 0.1310, VQ: 0.0104) | 
+2026-03-20 12:04:44 INFO: Epoch [62/100] | Train Loss: 0.1420 (Recon: 0.1314, VQ: 0.0105) | 
+2026-03-20 12:05:50 INFO: Epoch [63/100] | Train Loss: 0.1409 (Recon: 0.1305, VQ: 0.0104) | 
+2026-03-20 14:20:44 INFO: ============================================================
+2026-03-20 14:20:44 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 14:20:44 INFO: 📌 配置: dataset:
+  name: synt_ct
+  data_root: /home/konglz/DiffTumor/data/
+  data_txt: /home/konglz/DiffTumor/data_list.txt
+  image_channels: 1
+  a_min: -175
+  a_max: 250
+  b_min: -1.0
+  b_max: 1.0
+  space_x: 1.0
+  space_y: 1.0
+  space_z: 1.0
+  roi_x: 96
+  roi_y: 96
+  roi_z: 96
+  num_workers: 1
+  cache_dataset: false
+  cache_rate: 0.05
+  image_only: true
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+resume: true
+
+2026-03-20 14:20:44 INFO: 📌 设备: cuda
+2026-03-20 14:20:44 INFO: ============================================================
+2026-03-20 14:21:55 INFO: Epoch [1/100] | Train Loss: 0.9370 (Recon: 0.9178, VQ: 0.0192) | 
+2026-03-20 14:23:02 INFO: Epoch [2/100] | Train Loss: 0.4891 (Recon: 0.4754, VQ: 0.0137) | 
+2026-03-20 14:24:10 INFO: Epoch [3/100] | Train Loss: 0.3457 (Recon: 0.3333, VQ: 0.0125) | 
+2026-03-20 14:25:15 INFO: Epoch [4/100] | Train Loss: 0.2982 (Recon: 0.2867, VQ: 0.0116) | 
+2026-03-20 14:26:43 INFO: Epoch [5/100] | Train Loss: 0.2692 (Recon: 0.2582, VQ: 0.0109) | Val Loss: 0.2690 | Best Val Loss: 0.2690
+2026-03-20 14:27:51 INFO: Epoch [6/100] | Train Loss: 0.2533 (Recon: 0.2424, VQ: 0.0110) | 
+2026-03-20 14:28:57 INFO: Epoch [7/100] | Train Loss: 0.2405 (Recon: 0.2296, VQ: 0.0109) | 
+2026-03-20 14:30:03 INFO: Epoch [8/100] | Train Loss: 0.2199 (Recon: 0.2090, VQ: 0.0108) | 
+2026-03-20 14:31:41 INFO: ============================================================
+2026-03-20 14:31:41 INFO: 🚀 启动 DiffTumor VQGAN 3D 训练
+2026-03-20 14:31:41 INFO: 📌 配置: dataset:
+  name: synt_ct
+  data_root: /home/konglz/DiffTumor/data/
+  data_txt: /home/konglz/DiffTumor/data_list.txt
+  image_channels: 1
+  a_min: -175
+  a_max: 250
+  b_min: -1.0
+  b_max: 1.0
+  space_x: 1.0
+  space_y: 1.0
+  space_z: 1.0
+  roi_x: 96
+  roi_y: 96
+  roi_z: 96
+  num_workers: 1
+  cache_dataset: false
+  cache_rate: 0.05
+  image_only: true
+model: vq_gan_3d
+device: cuda
+train:
+  epochs: 100
+  batch_size: 1
+  lr: 0.0001
+  weight_decay: 1.0e-05
+  save_freq: 10
+  log_freq: 1
+val:
+  val_freq: 5
+  val_split: 0.2
+resume: true
+checkpoint_path: checkpoints/vqgan_best_epoch_59.pth
+
+2026-03-20 14:31:41 INFO: 📌 设备: cuda
+2026-03-20 14:31:41 INFO: ============================================================
+2026-03-20 14:32:49 INFO: Epoch [1/100] | Train Loss: 0.9369 (Recon: 0.9173, VQ: 0.0195) | 
+2026-03-20 14:33:55 INFO: Epoch [2/100] | Train Loss: 0.4857 (Recon: 0.4716, VQ: 0.0141) | 
+2026-03-20 14:35:00 INFO: Epoch [3/100] | Train Loss: 0.3566 (Recon: 0.3440, VQ: 0.0127) | 
+2026-03-20 14:36:06 INFO: Epoch [4/100] | Train Loss: 0.3015 (Recon: 0.2899, VQ: 0.0116) | 
+2026-03-20 14:37:31 INFO: Epoch [5/100] | Train Loss: 0.2819 (Recon: 0.2706, VQ: 0.0114) | Val Loss: 0.2775 | Best Val Loss: 0.2775
+2026-03-20 14:38:39 INFO: Epoch [6/100] | Train Loss: 0.2547 (Recon: 0.2436, VQ: 0.0111) | 
+2026-03-20 14:39:45 INFO: Epoch [7/100] | Train Loss: 0.2320 (Recon: 0.2208, VQ: 0.0111) | 
+2026-03-20 14:40:51 INFO: Epoch [8/100] | Train Loss: 0.2218 (Recon: 0.2110, VQ: 0.0108) | 
+2026-03-20 14:41:57 INFO: Epoch [9/100] | Train Loss: 0.2091 (Recon: 0.1986, VQ: 0.0105) | 
+2026-03-20 14:43:24 INFO: Epoch [10/100] | Train Loss: 0.2020 (Recon: 0.1916, VQ: 0.0104) | Val Loss: 0.2098 | Best Val Loss: 0.2098
+2026-03-20 14:44:29 INFO: Epoch [11/100] | Train Loss: 0.1955 (Recon: 0.1855, VQ: 0.0100) | 
+2026-03-20 14:45:35 INFO: Epoch [12/100] | Train Loss: 0.1923 (Recon: 0.1819, VQ: 0.0105) | 
+2026-03-20 14:46:41 INFO: Epoch [13/100] | Train Loss: 0.1842 (Recon: 0.1744, VQ: 0.0099) | 
+2026-03-20 14:47:46 INFO: Epoch [14/100] | Train Loss: 0.1837 (Recon: 0.1737, VQ: 0.0099) | 
+2026-03-20 14:49:11 INFO: Epoch [15/100] | Train Loss: 0.1782 (Recon: 0.1685, VQ: 0.0097) | Val Loss: 0.1841 | Best Val Loss: 0.1841
+2026-03-20 14:50:17 INFO: Epoch [16/100] | Train Loss: 0.1748 (Recon: 0.1654, VQ: 0.0093) | 
+2026-03-20 14:51:24 INFO: Epoch [17/100] | Train Loss: 0.1739 (Recon: 0.1645, VQ: 0.0094) | 
+2026-03-20 14:52:29 INFO: Epoch [18/100] | Train Loss: 0.1688 (Recon: 0.1594, VQ: 0.0094) | 
+2026-03-20 14:53:35 INFO: Epoch [19/100] | Train Loss: 0.1716 (Recon: 0.1621, VQ: 0.0095) | 
+2026-03-20 14:55:00 INFO: Epoch [20/100] | Train Loss: 0.1674 (Recon: 0.1580, VQ: 0.0094) | Val Loss: 0.1719 | Best Val Loss: 0.1719

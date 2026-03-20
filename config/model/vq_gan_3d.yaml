@@ -1,0 +1,6 @@
+# VQGAN 3D 模型参数
+in_channels: 1
+latent_dim: 128       # 编码器输出维度
+num_embeddings: 512   # 码本大小
+commitment_cost: 0.25 # 承诺损失权重
+decay: 0.99           # EMA更新系数

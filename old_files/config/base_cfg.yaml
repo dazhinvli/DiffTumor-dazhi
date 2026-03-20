@@ -1,0 +1,11 @@
+hydra:
+  run:
+    dir: ./outputs
+
+dataset: synt_ct
+model: vq_gan_3d
+
+train:
+  epochs: 100
+  lr: 1e-4
+  device: cuda

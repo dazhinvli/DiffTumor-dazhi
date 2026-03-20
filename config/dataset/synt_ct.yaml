@@ -1,0 +1,27 @@
+# 数据集基本信息
+name: synt_ct
+data_root: /home/konglz/DiffTumor/data/
+data_txt: /home/konglz/DiffTumor/data_list.txt
+
+# 医学影像预处理参数
+image_channels: 1
+a_min: -175  # CT窗宽窗位：空气
+a_max: 250   # CT窗宽窗位：骨骼
+b_min: -1.0
+b_max: 1.0
+
+# 空间重采样参数
+space_x: 1.0
+space_y: 1.0
+space_z: 1.0
+
+# 3D ROI裁剪尺寸
+roi_x: 96
+roi_y: 96
+roi_z: 96
+
+# 数据加载参数
+num_workers: 1
+cache_dataset: False
+cache_rate: 0.05
+image_only: True  # 仅加载图像，关闭标签逻辑
