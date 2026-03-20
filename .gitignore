@@ -1,0 +1,63 @@
+# 数据集
+data/
+dataset/
+datasets/
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.raw
+*.bin
+
+# 模型权重
+*.pth
+*.pt
+*.pkl
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+*/checkpoints/
+saved/
+models/
+pretrained/
+
+# 日志
+logs/
+log/
+*.log
+runs/
+wandb/
+tensorboard/
+
+# 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# 环境
+venv/
+env/
+.venv/
+.env/
+conda/
+requirements.lock
+
+# 大文件
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
